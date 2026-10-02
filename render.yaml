@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ashish-bisariya-portfolio
+    runtime: static
+    buildCommand: npm run build
+    staticPublishPath: ./dist
+    pullRequestPreviewsEnabled: true
